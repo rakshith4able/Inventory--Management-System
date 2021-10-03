@@ -1,0 +1,164 @@
+body
+{
+margin: 0;
+overflow: hidden;
+}
+
+header
+{
+  padding-top: 1%;
+  background-color: rgba(255, 255, 255, 0.2);
+  background: black;
+  position: relative;
+  font-size: 10px;
+  padding-bottom: 0%;
+}
+
+.navbar
+{
+  margin-left: 60%;
+  position: relative;
+}
+.navbar ul
+{
+  list-style-type: none;
+}
+
+.navbar ul li
+{
+  float:left;
+  padding-left:20px;
+}
+
+.count
+{
+
+  width:25%;
+  margin-top: 7%;
+  border-radius: 25%;
+  border: 1px ;
+  border-style: ridge;
+}
+
+.sidebar
+{
+  background: orange;
+}
+.sidebar ul
+{
+  list-style-type: none;
+  float:left;
+  border:1px;
+  border-style: ridge;
+  margin-top: -1.4%;
+  background: orange;
+  position: relative;
+  padding-right: 5%;
+  padding-bottom: 15%;
+  padding-top: 8%;
+}
+
+.sidebar ul li
+{
+  font-size: 30px;
+  padding: 15%;
+  padding-top:10%;
+
+}
+.sidebar a
+{
+  color: black;
+}
+
+.sidebar a:hover
+{
+  color: white;
+  text-decoration: none;
+
+}
+
+footer
+{
+  border: 2px solid black;
+  margin-top:12%;
+  padding: 6%;
+  padding-right: 50%;
+  padding-left: 50%;
+  background: black;
+  position: fixed;
+}
+
+
+
+.value
+{
+  color: red;
+}
+
+
+button
+{
+  padding: 3%;
+float:left;
+margin-left: 5%;
+  background: white;
+  color: red;
+  border-radius: 25%;
+  font-size: 15px;
+
+}
+
+
+
+.but
+{
+margin-left: 35%;
+
+}
+.but li
+{
+    list-style-type: none;
+}
+
+#inner
+{
+  margin-left: 5%;
+}
+
+.but ul li a:hover
+{
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+
+.forms
+{
+  margin-top: 5%;
+  border: 1px solid;
+  width:25%;
+  padding: 2%;
+  border-style: ridge;
+  border-radius: 15%;
+}
+
+.forms input
+{
+  float: right;
+  border-radius: 15%;
+
+}
+
+#submit
+{
+border-radius: 25%;
+border-style: ridge;
+background: white;
+}
+
+#submit:hover
+{
+  background: red;
+  color: white;
+  cursor: pointer;
+}
